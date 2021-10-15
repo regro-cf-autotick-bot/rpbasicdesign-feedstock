@@ -1,5 +1,5 @@
 {% set name = "rpbasicdesign" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 2c3123bbb2daabba3f7e21ca6896a2bf851b1c2ce1dbb446ab707a198a9853c0
+  sha256: caeeaf7418e89bf66b5801d68b7f81fccf080d2c838ca5f2c17d517bb4b45da0
 
 build:
   number: 0
@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/brsynth/{{ name|lower }}
-  summary: "Convert rpSBML enzyme info into BASIC construct"
+  summary: Convert rpSBML enzyme info into BASIC construct
   license: MIT
   license_file: LICENSE.txt
 
