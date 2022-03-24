@@ -1,5 +1,5 @@
 {% set name = "rpbasicdesign" %}
-{% set version = "0.3.4" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 6c8a9f84560d57b93d16d1fc30335d693d55037f8b9ddc28bb80b2dc8f9687d0
+  sha256: 26d1dee40dafd50f64bd714d2a5c664142a8dad98be9a5015e80f05a28da33d8
 
 build:
   number: 0
