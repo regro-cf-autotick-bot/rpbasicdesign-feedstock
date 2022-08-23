@@ -1,5 +1,5 @@
 {% set name = "rpbasicdesign" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 9d42e03af416448acc6d5b2e758716ed3671e50bb81eb2bee4d1c94f1331d281
+  sha256: 682796eb182f9cdcb710cb1530fed6480f90ea441c26ee615bfcd21191db67fc
 
 build:
   number: 0
@@ -28,6 +28,7 @@ test:
     - tests
   imports:
     - {{ name|lower }}
+    - cobra
   requires:
     - pytest
   commands:
