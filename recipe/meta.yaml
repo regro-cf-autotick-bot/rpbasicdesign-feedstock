@@ -10,7 +10,7 @@ source:
   sha256: da16cc390cc066529e2cb19dbb4ebdd112d5f39686e90b699464d400e5516b9b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install -vv .
 
@@ -23,6 +23,7 @@ requirements:
     - pysbol2
     - rptools
     - numpy <=1.22.4
+    - rptools >=6.2.3
 
 test:
   source_files:
